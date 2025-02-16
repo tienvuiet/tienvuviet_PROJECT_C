@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.songoku.com" method="POST">    
+     <table>    
+        <tr>
+            <td><label for="name">Họ và tên:</label></td>
+            <td><input type="text" name="name" id="name" required></td>
+        </tr>
+        <tr>
+            <td><label for="date">Ngày sinh:</label></td>
+            <td><input type="date" name="date" id="date" required></td>
+        </tr>
+        <tr>
+            <td><label for="gioitinh">Giới tính:</label></td>
+            <td>    
+                <input type="radio" name="gioitinh" id="nam" value="Nam">
+                <label for="nam">Nam</label>
+                <input type="radio" name="gioitinh" id="nữ" value="Nữ">
+                <label for="nữ">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="phone">Số điện thoại:</label></td>
+            <td><input type="tel" name="phone" id="phone" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="tencongty">Tên công ty:</label></td>
+            <td><input type="text" name="tencongty" id="tencongty" required></td>
+        </tr>
+        <tr>
+            <td><label for="vaitro">Vai trò trong công ty:</label></td>
+            <td><input type="text" name="vaitro" id="vaitro" value="Giám đốc điều hành(CEO)"></td>
+        </tr>
+        <tr>
+            <td><label for="quymo">Quy mô công ty:</label></td>
+            <td>    
+               <select name="quymo" id="quymo"> 
+                <option value="Doanhnghiepnho">Doanh Nghiệp Nhỏ</option>
+                <option value="Doanhnghiepvua">Doanh Nghiệp Vừa</option>
+               </select> 
+            </td>
+        </tr>
+        <tr>
+            <td><label for="nganhnghe">Ngành nghề công ty</label></td>
+            <td><input type="text" name="nganhnghe" id="nganhnghe" required></td>
+        </tr>
+        <tr>
+            <td><label for="lydo">Lý do tham gia CLB:</label></td>
+            <td><textarea name="lydo" id="lydo" required></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="kinhnghiem">Kinh nghiệm lãnh đạo:</label></td>
+            <td><textarea name="kinhnghiem" id="kinhnghiem" required></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="muctieu">Mục tiêu tham gia CLB:</label></td>
+            <td><textarea name="muctieu" id="muctieu" required></textarea></td>
+        </tr>
+        <tr>    
+            <td><label for="chuongtrinh">Chương trình muốn tham gia:</label></td>
+            <td>    
+               <input type="checkbox" name="chuongtrinh" id="chuongtrinh" value="Networkinh">
+                <label for="Networking">Networking</label>
+                <input type="checkbox" name="chuongtrinh" id="chuongtrinh" value="Working">
+                <label for="Working">Working</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="dangky">Đăng ký nhận bản tin:</label></td>
+            <td><input type="checkbox" name="dangky" id="dangky" value="Có">
+                <label for="Có">Có</label>    
+            </td>
+
+        </tr>
+        <tr>
+            <td>    
+                <input type="submit" name="dangky" value="Đăng ký hội viên">
+            </td>
+        </tr>
+     </table>
+    </form>
+</body>
+</html>
